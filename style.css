@@ -1,0 +1,141 @@
+body{
+    background: url('./img.png') center / cover no-repeat bisque;
+    padding: auto;
+}
+
+.container {
+    width: 100%;
+    height: 75vh;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    display: inline-block;
+    list-style: none;
+    margin: 7px;
+}
+
+.btn {
+    width: 35px;
+    height: 35px;
+    border: 2px solid rgb(67, 13, 67);
+    border-radius: 5px;   
+}
+
+.btn p {
+    transform: translateX(-2px); 
+}
+
+p {
+    margin: 0;
+    font-size: 22px;
+    color: rgb(67, 13, 67);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.big_button {
+    width: 150px;
+    height: 40px;
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(67, 13, 67);
+    border: 2px solid rgb(67, 13, 67);
+    border-radius: 5px;
+}
+
+.big_button:hover {
+    background-color: #109eae;
+}
+
+.big_button:focus {
+    background-color: #109eae;
+}
+
+.big_button:active {
+    background-color: #16121174;
+}
+
+.input {
+    width: 40px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid rgb(67, 13, 67);
+    border-radius: 5px;
+}
+
+.start-btn {
+    height: 36px;
+    margin-left: 30px;
+    border: 2px solid rgb(67, 13, 67);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.start-btn:hover {
+    background-color: #109eae;
+}
+
+.start-btn:focus {
+    background-color: #109eae;
+}
+
+.start-btn:active {
+    background-color: #16121174;
+}
+
+.legend {
+    max-width: 70vw;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.fieldset {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+}
+
+@media (max-width: 576px) {
+    .btn {
+        width: 25px;
+        height: 25px;
+        text-align: left;
+    }
+    .item {
+        margin: 3px;
+    }
+    .btn p {
+        margin: auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    .legend {
+        max-width: 90vw;
+    }
+}
+
