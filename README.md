@@ -1,5 +1,5 @@
 # memory-game
-Train your memory with this simple game!
+Train your memory with this simple game! (Now in progress)
 
 This is my selfmade training project.
 
